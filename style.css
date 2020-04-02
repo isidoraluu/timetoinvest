@@ -1,0 +1,248 @@
+body{
+  font:15px/1.5 Arial,Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color:#f4f4f4;
+}
+/*Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.button1{
+  height:38px;
+  background:#c3c388;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#666633;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.dark{
+  padding: 15px;
+  background: #adad85;
+  color:#666633;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*Header*/
+header{
+  background:#adad85 ;
+  color:#ffffff;
+  padding-top: 8px;
+  min-height: 70px;
+  border-bottom: #666633 3px solid;
+
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+
+}
+header #branding h1{
+  margin:0;
+
+}
+header nav{
+  float:right;
+  margin-top: 20px;
+
+}
+header .highlight, header .current a{
+  color: #666633;
+  font-weight: bold;
+
+}
+#newsletter .klasa span {
+  color: #666633;
+  font-weight: bold;
+}
+header a:hover{
+  color:#c3c388;
+  font-weight: bold;
+}
+
+/*Showcase*/
+#showcase{
+  min-height:600px;
+  background: url('PANCEVO.jpeg')0 -60px  ;
+  background-size: cover;
+  text-align: center;
+  color: #666633;
+}
+#showcase h1{
+  margin-top: 100px;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+#showcase h2{
+
+  font-size:17px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/*Newsletter*/
+#newsletter{
+  padding: 15px;
+  color:#ffffff;
+  background:#adad85;
+  border-bottom: #666633 3px solid;
+
+}
+#newsletter h3{
+  text-align: center;
+}
+
+/*Boxes*/
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  color: #666633;
+  font-weight: bold;
+}
+#boxes h1{
+  color: #666633;
+  font-weight: bold;
+}
+#boxes .box img{
+  width: 300px;
+}
+
+footer{
+  padding:20px;
+  margin-top: 0px;
+  color: #666633;
+  background-color:#adad85;
+  border-bottom: #666633 3px solid;
+  text-align: center;
+}
+
+/*STANOVI*/
+#zgradaA{
+
+  margin-top: 20px;
+  border-bottom: #666633 1px solid;
+}
+#zgradaA .zgrada{
+  float: left;
+  color:#666633;
+}
+#zgradaA .zgrada img{
+  width: 1000px;
+}
+.aqua_table  a:link,a:visited{
+  color:#666633;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight:bold;
+}
+.aqua_table a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+ .aqua_table #prodato {
+  color:red;
+}
+
+.aqua_table td,th{
+  border: 1px solid #666633;
+  border-collapse: collapse;
+  background-color: #adad85;
+  text-align: center;
+
+}
+.aqua_table th{
+  font-size: 20px;
+  font-weight: bold;
+}
+.page-title{
+  text-align: center;
+}
+#zgradaB{
+  margin-top: 20px;
+  border-bottom: #666633 1px solid;
+}
+#zgradaB .zgrada{
+  float: left;
+  color: #666633;
+}
+#zgradaB .zgrada img{
+  width: 1000px;
+}
+/*Sidebar*/
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 50px;
+
+}
+aside#sidebar .quote input,aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+/*Kontakt*/
+ul#kontakt li{
+  list-style: none;
+  padding: 20px;
+  border: #666633 solid 1px;
+  margin-bottom: 5px;
+  background: #adad85;
+
+}
+article#main-col{
+  float:left;
+  width: 65%;
+}
+
+
+/*Media*/
+@media(max-width:768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h3,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+header{
+  padding-bottom: 20px;
+}
+#boxes h1{
+  text-align: center;
+}
+#sidebar .quote button{
+  display: block;
+  width: 100%;
+}
+#showcase h1{
+  text-align: center;
+  margin-top: 200px;
+  font-size:15px;
+}
+}
